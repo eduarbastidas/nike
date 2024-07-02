@@ -1,0 +1,61 @@
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+    body {
+        background-color: rgb(231, 224, 224);
+    }
+    
+    .perfil {
+        border-radius: 20px;
+    }
+    
+    .borde {
+        border-radius: 20px;
+    }
+    
+    .precio {
+        margin-top: 450px;
+        margin-left: -200px;
+    }
+    
+    .flecha {
+        color: #484747;
+    }
+    
+    .fle {
+        color: #7e7c7c;
+    }
+    
+    .flec {
+        color: #fff;
+    }
+    
+    .logo2 {
+        margin-top: 150px;
+    }
+    
+    .bolso {
+        margin-left: 10px;
+        color: #fff;
+        margin-top: -5px;
+    }
+    
+    .logo {
+        margin-top: 20px;
+        background-color: black;
+        border-radius: 40px;
+        height: 170px;
+        width: 70px;
+    }
+    
+    button {
+        height: 40px;
+        height: 30px;
+        border-radius: 20px;
+    }
+    
+    @media(max-width:360px) {
+        body {
+            flex-direction: column;
+        }
+    }
